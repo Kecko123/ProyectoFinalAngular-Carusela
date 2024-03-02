@@ -1,0 +1,16 @@
+.container {
+    height: 100vh;
+    background-image: url(../../../../assets/media/loginBackground.gif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginCard {
+    background-color: rgb(227, 227, 227);
+
+    &Title {
+        display: flex;
+        align-self: center;
+    }
+}

@@ -1,0 +1,18 @@
+.tableStyle{
+    background-color: #fff;
+}
+.btnCommon{
+    &Red{
+        background-color: rgb(253, 93, 93);
+    }
+    &Green{
+        background-color: rgb(79, 213, 91);
+    }
+}
+.icon-display {
+    transform: scale(1);
+    color: #dedfe4;
+ }
+.principalText{
+    color: #fff;
+}

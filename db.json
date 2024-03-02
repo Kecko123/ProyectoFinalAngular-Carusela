@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Julian",
+      "surname": "Fernández",
+      "phonenumber": "+54 1234-3212",
+      "email": "julian-12@gmail.com",
+      "country": "Argentina",
+      "role": "user",
+      "password": "12345678"
+    },
+    {
+      "id": "2",
+      "name": "Enzo",
+      "surname": "Alvarez",
+      "phonenumber": "+52 8173-9543",
+      "email": "enzito25@outlook.com",
+      "country": "México",
+      "role": "user",
+      "password": "12345678"
+    },
+    {
+      "id": "3",
+      "name": "Lionel",
+      "surname": "Acuña",
+      "phonenumber": "+34 9182-4372",
+      "email": "le0goat@hotmail.com",
+      "country": "España",
+      "role": "user",
+      "password": "12345678"
+    },
+    {
+      "id": "4",
+      "name": "Marcos",
+      "surname": "Messi",
+      "phonenumber": "+51 2038-1394",
+      "email": "marcosss1234@outlook.com",
+      "country": "Perú",
+      "role": "user",
+      "password": "12345678"
+    },
+    {
+      "id": "fcc9",
+      "name": "Juan",
+      "surname": "Gonzales",
+      "phonenumber": "+52 1723-1054",
+      "email": "juangzles@mail.com",
+      "password": "iamadmin",
+      "country": "Argentina",
+      "role": "admin"
+    },
+    {
+      "id": 1708818519066,
+      "name": "asdasdasdas",
+      "surname": "dasdasda",
+      "email": "sdasdasd@mail.com",
+      "country": "Argentina",
+      "phonenumber": "1231231231414"
+    }
+  ],
+  "courses": [],
+  "inscriptions": []
+}

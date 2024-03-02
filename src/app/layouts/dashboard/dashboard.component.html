@@ -1,0 +1,64 @@
+<!-- Sidebar -->
+<!-- Sidebar -->
+<mat-drawer-container class="dashboardStyle" autosize>
+  <mat-drawer #drawer class="example-sidenav sidebarStyle" mode="side">
+    <mat-nav-list>
+      <a routerLink="home" mat-list-item>
+        <span class="blanco"><mat-icon>home</mat-icon> Inicio</span>
+      </a>
+
+      <a
+        (click)="showFiller = !showFiller"
+        class="sidebarAdminButton"
+        mat-list-item
+        ><span class="blanco"
+          >Panel de admin<mat-icon>expand_more</mat-icon></span
+        ></a
+      >
+
+      @if (showFiller) {
+      <mat-nav-list>
+        <a routerLink="alumns" class="backgroundSidebarButtons" mat-list-item
+          ><span class="blanco"><mat-icon>people</mat-icon> Alumnos</span></a
+        >
+        <a routerLink="courses" class="backgroundSidebarButtons" mat-list-item
+          ><span class="blanco"><mat-icon>school</mat-icon> Cursos</span></a
+        >
+        <a
+          routerLink="inscriptions"
+          class="backgroundSidebarButtons"
+          mat-list-item
+          ><span class="blanco"
+            ><mat-icon>person_add</mat-icon> Inscripciones</span
+          ></a
+        >
+      </mat-nav-list>
+      }
+    </mat-nav-list>
+  </mat-drawer>
+  <!-- Sidebar -->
+  <!-- Sidebar -->
+
+  <div class="example-sidenav-content">
+    <mat-toolbar class="navbarStyle">
+      <button
+        mat-icon-button
+        class="example-icon"
+        aria-label="Example icon-button with menu icon"
+        (click)="drawer.toggle()"
+      >
+        <mat-icon class="blanco menuIcon">menu</mat-icon>
+      </button>
+
+      <span appBigtext class="blanco">Coderhome</span>
+      <div class="ml-auto">
+        <a (click)="logout()" mat-list-item
+          ><span class="blanco logOut backgroundNavbarButtons"
+            >Cerrar Sesion</span
+          ></a
+        >
+      </div>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </div>
+</mat-drawer-container>
